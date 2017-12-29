@@ -5,6 +5,8 @@ import MeCab
 from PyQt5.QtWidgets import QApplication, QWidget, QInputDialog, QLineEdit, QFileDialog
 from PyQt5.QtGui import QIcon
 
+argvs = sys.argv
+argc = len(argvs)
 class FileNameDialog(QWidget):
     title = '形態素解析するファイルを選択'
     left, top, width, height = 10, 10, 640, 480
@@ -23,9 +25,13 @@ def show_words(text):
     m = MeCab.Tagger("/usr/local/lib/mecab/dic/mecab-ipadic-neologd")
     list_parse_text = m.parse(text).split("\n")
     for p_text in list_parse_text:
-        if p_text.find("名詞,一般") >= 0 or p_text.find("名詞,固有名詞") >= 0:
-            print(p_text[:-1].split("\t")[0] + " ", end="")
-
+        if argc != 2:
+            if p_text.find("名詞,一般") >= 0 or p_text.find("名詞,固有名詞") >= 0:
+                print(p_text[:-1].split("\t")[0] + " ", end="")
+        # 第二引数が存在すれば真
+        elif argvs[1] == "副詞":
+            if p_text.find("副詞,一般") >= 0 or p_text.find("副詞,助詞類接続") >= 0:
+                print(p_text[:-1].split("\t")[0] + " ", end="")
 def main():
     app = QApplication(sys.argv)
     # sys.exit(app.exec_())

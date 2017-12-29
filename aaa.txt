@@ -1,0 +1,39 @@
+int inum fnum 桁 数値
+基準 基準 コンパイル 内部 変数 i どちら 基準 一般 どちら うに 両方
+P 単元 捨 問 題 単元 scanf バッファ 残り
+基礎 要因 私 何 次 点数 お手数
+科目 例題 キーボード 国語 数学 点数 整数 点数 点数 どちら 点数 Ideone キーボード 自分 
+単元 ヒント 具体 ヒント goto 文 場所 for ループ OUT 
+問 題 P 単元 自分 技量 頭 お許し テキスト 当たり 他 目線 自分 題 P 単元 自体 問 題 practice テキスト 部分 らい 内容 らい 
+科目 用語 何 キーワード 用語 何 
+回数 繰り返し 回数 読み込み 例 最後 printf 関数 printf n これ for 関数 printf 関数 n どちら 要素 例 件 例 下 printf 文 中身 d 点数 d 例 d 点数 d 
+科目 例題 問 F 問 G 問 F include stdio h typedef struct Baggage int id char owner double weight Baggage 問 G include stdio h int main void FILE fp char str NUM fp fopen input txt r fgets str NUM fp printf s str fclose fp return 
+単元 件 返信 変数 num ソート 件 ビデオ フリップ If test j test i num test j num 上段 キーボード ここ ソート while 条件 While num 最初 break 文 break 文 num while while num 
+科目 半角 バックス ラッシュ MacOS 基礎 文字 コード 都合 半角 バックス ラッシュ シーケンス 科目 バックス ラッシュ シーケンス 場 合 対象 シーケンス 円 
+P 単元 教科書 入れ替え 変数 tmp num num 整数 変数 入れ替え while 文 条件 
+P 単元 誤差 値 ソース include stdio h int main void double d d dw d printf 実数 n scanf lf d dw d d printf f f f n d d dw return PETA 自動 実数 PETA 自動 実数 PETA 自動 実数 PETA 自動 実数 PETA 自動 実数 自動 整数 d double 実数 桁 数 段階 誤差 d 値 
+P 単元 n c 部分 Enter バッファー include stdio h struct Person char name int age char gender int main void struct Person person printf 名前 scanf s person name printf n 年齢 scanf d person age printf n 性別 M or F n scanf n c person gender printf name s age d gender c n person name person age person gender return 
+先生 switch ｆｏｒ 内容 先生 方法 課題 先 状況 単位 教授 
+基礎 教科書 P Sample コード int i j 変数 点数 i j 
+基礎 教科書 P Sample コード int i j 変数 点数 i j 
+範囲 教科書 Lesson Lesson ポインタ 関数 引数 言葉 Lesson 内容 
+初歩 歳 プログラミン グ 教科書 Sample 通り ｓcanf scan s 教科書 include stdio h int main void char str printf 文字 列 n scanf s s str printf 文字 列 s n str return コンパイル コマンドプロンプト Hello Enter 何 キー 文字 列 Hello これ 教科書 私 自身 機械 トラブル 他 
+Visual Studio インストール セキュリティ ソフト 取り扱い 前回 願 Terapad コマンドプロンプト 方法 す 教科書 Sample コンパイル メッセージ scanf scanf s 教科書 これ 
+sample 下記 コピペ 通り 教科書 コンパイル 数字 include stdio h int main void int res printf 成績 n scanf s d res switch res case case printf n break case case printf 調子 n break case printf n break default printf n break return 通り メッセージ これ リビルド プロジェクト Project Debug Win Source cpp c users 太朗 desktop c project project source cpp warning C switch 文 default case ラベル c users 太朗 desktop c project project source cpp warning C case ラベル c users 太朗 desktop c project project source cpp warning C case ラベル c users 太朗 desktop c project project source cpp warning C case ラベル c users 太朗 desktop c project project source cpp warning C case ラベル c users 太朗 desktop c project project source cpp warning C case ラベル Project vcxproj C Users 太朗 Desktop c Project Debug Project exe リビルド 
+教科書 何 default include stdio h int main void int res printf 成績 n scanf d res printf 成績 d n res switch res case printf n break case printf n break case printf 上 n break case printf n break case printf n break return 教科書 Sample 画面 数字 数字 これ 
+教科書 lesson If else if else Switch 文 論理 自分 方法 自分 include stdio h int main void int num printf 成績 n scanf d num if num printf 成績 d n n else if num printf 成績 d n n else if num printf 成績 d n 上 n else if num printf 成績 d n n else if num printf 成績 d n n return switch 文 自分 どちら これ 自分 Terapad コマンドプロンプト コンパイル 方法 各種 サイト ｃｌ ｃｌ 内部 コマンド 外部 コマンド バッチ ファイル 
+C 言語 柴田望洋 本 なかなか 自分 コンパイル 例題 模範 コンパイル きましたが 科目 なければ if 関数 奇数 偶数 長方形 while 教科書 項目 用語 なん それ 例題
+方向 内容 基本 すき 文章 何 わかりません 構文 順序 for 文 int i j num いくつ 構造 ファイル 構文 if 文 構文 自体 while 文 上記 ポインタ 文 部分 ここ あたりさいという ここでの while 文 C 言語 本 あと 例題 構文 科目 あるのか 方向 わからず 
+fscanf 書式 データ scanf データ
+C言語 きたような とりあつかっていない 関数 これ PETA 用語 文法 部分文章 部分 範囲 限界 情報 専門 学校 及ない 難易 これ 初歩 基礎 頭 文系 法律 内容 頭 白紙 答案 当たり 構文 
+コマンド vcvars vcvars 読み方 
+long long int 型 教科書 long int 何 
+言葉 言語 
+言語 テキスト どこ 
+構造 構造 体型 構造 体型 構造 変数 両方 owner ヌル 文字 char owner ヌル 文字 文字 char owner 教授 
+scanf 文中 キーボード 受け取り scanf 文 値 これ 課題 解法 上記 課題 講座 これ 私 要領 教科書 範囲 これ 
+scanf lf x lf 部分 わら 
+本 構文 用語 組み立て 方法 何 人 それ 構文 流れ 初心者 
+必修 課題 title 変数 どこ include stdio h struct Book char title int value int pages int main void struct Book b b title Bible b value b pages printf title s value d pages d b title b value b pages return 
+原因 例 pdf 他 科目 
+上記 科目 科目 
