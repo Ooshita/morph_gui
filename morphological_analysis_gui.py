@@ -24,7 +24,11 @@ def show_words(text):
     # 辞書にneologdを使用
     m = MeCab.Tagger("/usr/local/lib/mecab/dic/mecab-ipadic-neologd")
     list_parse_text = m.parse(text).split("\n")
+    hinshi_check(list_parse_text)
+    
+def hinshi_check(list_parse_text):
     for p_text in list_parse_text:
+        # デフォルトでは，名詞．
         if argc != 2:
             if p_text.find("名詞,一般") >= 0 or p_text.find("名詞,固有名詞") >= 0:
                 print(p_text[:-1].split("\t")[0] + " ", end="")
@@ -32,6 +36,25 @@ def show_words(text):
         elif argvs[1] == "副詞":
             if p_text.find("副詞,一般") >= 0 or p_text.find("副詞,助詞類接続") >= 0:
                 print(p_text[:-1].split("\t")[0] + " ", end="")
+        elif argvs[1] == "動詞":
+            if p_text.find("動詞,自立") >= 0: 
+                print(p_text[:-1].split("\t")[0] + " ", end="")
+        elif argvs[1] == "形容詞":
+            if p_text.find("形容詞,自立") >= 0:
+                print(p_text[:-1].split("\t")[0] + " ", end="")
+        elif argvs[1] == "助詞":
+            if p_text.find("助詞,格助詞,一般") >=0:
+                print(p_text[:-1].split("\t")[0] + " ", end="")
+        elif argvs[1] == "記号":
+            if p_text.find("記号,一般") >= 0:
+                print(p_text[:-1].split("\t")[0] + " ", end="")
+        elif argvs[1] == "助動詞":
+            if p_text.find("助動詞") >= 0:
+                print(p_text[:-1].split("\t")[0] + " ", end="")
+        elif argvs[1] == "感動詞":
+            if p_text.find("感動詞") >= 0:
+                print(p_text[:-1].split("\t")[0] + " ", end="")
+
 def main():
     app = QApplication(sys.argv)
     # sys.exit(app.exec_())
