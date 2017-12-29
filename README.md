@@ -23,3 +23,10 @@ please put files in one directory and select multiple.
   
 <img src="/image/ターミナル.png" width=620 height=180 alt="output">  
 
+## option
+品詞を指定することができます．(引数を指定しなければ名詞のみの形態素解析になります．)  
+現在は副詞のみ設定できます．  
+  
+```zsh
+morphgui 副詞 
+```
